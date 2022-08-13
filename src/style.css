@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Orbitron;
+  src: url('../fonts/Orbitron-Regular.ttf');
+}
+@font-face {
+  font-family: Josefin Sans;
+  src: url('../fonts/JosefinSans-Regular.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+ul, ol, ol li, ul li { margin-left: 0; padding-left: 0; }
+ul, ol { margin-left: 2em; }
+
+body {
+  /* font-family: 'Orbitron', sans-serif; */
+  background-color: rgb(255, 255, 255);
+}
+
+#calculator {
+  width: 620px;
+  margin: 64px auto 0 auto;
+}
+
+#title {
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  margin-left: -18px;
+  color: #242525;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5)
+}
+.box{
+  display: inline-flex;
+}
+.barCode{
+  margin-top: 25px;
+  margin-right: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+#entrybox {
+  width: 68vh;
+  height: 70px;
+  border-color: #242525;
+  border-top: 2px solid #353434;
+  border-bottom: 2px solid #353434;
+  border-left: 2px solid #353434;
+  border-right: 2px solid #353434;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  text-align: right;
+  /* border: 2 px solid black; */
+}
+
+#entry {
+  margin-right: 8px;
+  font-size: 36px;
+  color: #181818;
+  /* border: 2 px solid black; */
+}
+
+#ans {
+  margin-right: 8px;
+}
+
+#history {
+  font-size: 9px;
+  color: #272626;
+}
+
+#buttons {
+  width: 360px;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+    border: 12px solid transparent;
+    
+}
+
+td {
+  width: 90px;
+  height: 60px;
+}
+
+button {
+  /* font-family: 'Orbitron', sans-serif; */
+  width: 80%;
+  height: 100%;
+  border-bottom: #444;
+  color: #0f0c0c;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #444;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+button:active {
+  opacity: 0.7;
+  box-shadow: none;
+  transform: translate(0, 1px);
+}
+
+button.system {
+  background-color: #b3c0c5;
+}
+
+li.record {
+  width: 305px;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  margin-top: 16px;
+  background-color: rgb(245, 245, 245);
+  color: #131010;
+  text-align: right;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 20%;
+}
+
+.hello{
+  margin-right: 100%;
+}
